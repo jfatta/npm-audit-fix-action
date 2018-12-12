@@ -1,5 +1,4 @@
-FROM node:10-slim
-
+FROM node:10
 LABEL "com.github.actions.name"="NPM Audit"
 LABEL "com.github.actions.description"="Runs an `npm audit fix` and opens a pull request to suggest the fixes."
 LABEL "com.github.actions.icon"="gear"
